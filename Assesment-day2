@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lions - Kings of the Jungle</title>
+</head>
+<body>
+    <h1>The Mighty Lion</h1>
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" 
+         alt="Lion in the wild" 
+         width="500">
+    
+    <p>Lions are powerful big cats that live in Africa. Male lions have impressive manes while lionesses do most of the hunting.</p>
+    
+    <p>A group of lions is called a pride. Lions can sleep up to 20 hours per day!</p>
+    
+    <p>Learn more at <a href="https://www.nationalgeographic.com/animals/mammals/facts/lion" target="_blank">National Geographic</a>.</p>
+</body>
+</html>
