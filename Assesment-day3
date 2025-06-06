@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reliance Industries Stock Analysis | Investor Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 100%;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        
+        h1, h2, h3 {
+            color: #1a3e8c;
+            margin-top: 0;
+        }
+        h1 {
+            border-bottom: 2px solid #1a3e8c;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.3em;
+            margin: 25px 0 15px;
+        }
+        
+        
+        .section {
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f5f7fa;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f5f7fa;
+        }
+        
+      
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        button {
+            background: #1a3e8c;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        button:hover {
+            background: #14306e;
+        }
+        
+
+        .highlight {
+            background-color: #e6f0ff;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .chart-container {
+            margin: 20px 0;
+            height: 500px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        .tip-box {
+            background-color: #f5f7fa;
+            padding: 15px;
+            border-left: 4px solid #1a3e8c;
+            margin: 15px 0;
+        }
+        
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        
+        .chart-section {
+            padding: 0;
+            margin: 30px 0;
+        }
+        .chart-section h2 {
+            padding: 0 20px;
+            margin-top: 20px;
+        }
+        .chart-section p {
+            padding: 0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Reliance Industries Stock Analysis</h1>
+            <p>Comprehensive tracking and analysis for India's market leader</p>
+        </header>
+
+        <main>
+            
+            <section class="section">
+                <h2>Essential Stock Concepts for Reliance Investors</h2>
+                
+                <div class="tip-box">
+                    <p>Understanding these metrics will help you analyze Reliance's performance:</p>
+                </div>
+                
+                <p><strong>Market Capitalization:</strong> At <span class="highlight">₹19.2 lakh crore</span>, Reliance is India's most valuable company. This represents the total market value of all outstanding shares.</p>
+                
+                <p><strong>P/E Ratio (TTM):</strong> Reliance's current P/E of <span class="highlight">24.8</span> suggests investors are paying ₹24.8 for every ₹1 of earnings. Compare this to the industry average of 18.5.</p>
+                
+                <p><strong>52-Week Range:</strong> The stock has traded between <span class="highlight">₹2,100 and ₹2,856</span> over the past year, important for identifying support and resistance levels.</p>
+            </section>
+
+            
+            <section class="section">
+                <h2>Reliance Financial Snapshot</h2>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Value</th>
+                            <th>Change (YoY)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Current Price</td>
+                            <td>₹2,856.15</td>
+                            <td>+12.5%</td>
+                        </tr>
+                        <tr>
+                            <td>Market Cap</td>
+                            <td>₹19.23T</td>
+                            <td>+18.3%</td>
+                        </tr>
+                        <tr>
+                            <td>P/E Ratio (TTM)</td>
+                            <td>24.8</td>
+                            <td>-2.1%</td>
+                        </tr>
+                        <tr>
+                            <td>Dividend Yield</td>
+                            <td>0.45%</td>
+                            <td>+0.1%</td>
+                        </tr>
+                        <tr>
+                            <td>ROE</td>
+                            <td>11.2%</td>
+                            <td>+1.5%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            
+            <section class="section">
+                <h2>Get Reliance Stock Alerts</h2>
+                
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="alerts">Alert Types</label>
+                        <select id="alerts">
+                            <option value="">Select alert preference</option>
+                            <option value="price">Price Movements</option>
+                            <option value="news">Company News</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox"> Include technical analysis
+                        </label>
+                    </div>
+                    
+                    <button type="submit">Subscribe to Alerts</button>
+                </form>
+            </section>
+
+
+            <section class="section chart-section">
+                <h2>Reliance Live Chart</h2>
+                
+                <div class="chart-container">
+                    <iframe src="https://s.tradingview.com/widgetembed/?symbol=NSE%3ARELIANCE&interval=D" frameborder="0" style="width:100%; height:100%;"></iframe>
+                </div>
+                
+                <p>Track Reliance Industries' stock performance with this interactive chart. Use the toolbar for technical analysis tools.</p>
+            </section>
+
+            
+            <section class="section">
+                <h2>Investment Considerations</h2>
+                
+                <div class="tip-box">
+                    <p>Key factors to watch when analyzing Reliance:</p>
+                </div>
+                
+                <ul>
+                    <li><strong>Segment Performance:</strong> Monitor O2C, Jio, and Retail segments separately</li>
+                    <li><strong>Debt Position:</strong> Track net debt reduction progress</li>
+                    <li><strong>New Energy:</strong> Watch developments in green energy initiatives</li>
+                    <li><strong>Crude Prices:</strong> Impacts refining margins in O2C business</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Data as of June 2024 | For educational purposes only | Not investment advice</p>
+        </footer>
+    </div>
+</body>
+</html>
