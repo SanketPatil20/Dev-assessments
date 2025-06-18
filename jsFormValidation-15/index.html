@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form id="registrationForm">
+    <label>Name:
+      <input type="text" id="name" />
+    </label>
+    <label>Email:
+      <input type="text" id="email" />
+    </label>
+    <label>Phone:
+      <input type="text" id="phone" />
+    </label>
+    <button type="submit">Register</button>
+    <button type="button" id="clearBtn">Clear</button>
+    <div id="messages"></div>
+  </form>
+
+  <div id="submittedData"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
