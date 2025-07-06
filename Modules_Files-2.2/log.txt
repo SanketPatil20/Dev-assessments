@@ -1,0 +1,6 @@
+
+Results of Math Operations:
+Add: 10 + 5 = 15
+Subtract: 10 - 5 = 5
+Multiply: 10 * 5 = 50
+Divide: 10 / 5 = 2
