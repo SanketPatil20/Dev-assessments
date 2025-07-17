@@ -1,0 +1,1 @@
+In Express.js, route parameters are named URL segments used to capture values specified at their position in the URL. They act as placeholders for dynamic parts of a URL and are commonly used for things like user IDs, product slugs, etc.
