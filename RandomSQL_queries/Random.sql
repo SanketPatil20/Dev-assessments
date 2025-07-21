@@ -51,3 +51,25 @@ alter table customers drop column middle_name;
 
 alter table customer rename to customer_detials;
 
+intert into customers(id, name, email, age) values (3, 'Sanket', 'sanket@gmail.com', 20);
+
+select customers.name, orders.amount
+from customers
+inner join orders on customer.id = orders.cust_id;
+
+select t.column_name from table_name as t;
+
+select c.name, o.amount
+from customers as c
+left join orders as o
+on c.id = o.cust_id; 
+
+select o.amount, c.name
+from orders as o
+right join customers as c
+on c.id = o.cust_id;
+
+select e.emp_name, d.dept_name
+from departments as d 
+right join employees as e
+on e.dept_id = d.id;
