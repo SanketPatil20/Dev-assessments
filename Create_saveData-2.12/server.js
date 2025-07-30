@@ -12,7 +12,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/internshipDB', {
     useUnifiedTopology: true
 })
     .then(() => {
-        console.log('✅ Connected to MongoDB: internshipDB');
+        console.log('Connected to MongoDB: internshipDB');
     })
     .catch((err) => {
         console.error('MongoDB connection failed:', err.message);
