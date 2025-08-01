@@ -1,0 +1,21 @@
+src/
+Contains all JavaScript and component files.
+
+This is where you write your React code (components, styles, etc.).
+
+The entry point (index.js) and root component (App.js) are here.
+
+public/
+Contains static files like index.html, images, etc.
+
+index.html is the single HTML file where your React app is injected.
+
+App.js
+This is the root React component.
+
+You write JSX here to control what appears on the screen.
+
+index.js
+The entry point of the app.
+
+It renders the <App /> component into the root DOM element in index.html.
