@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import StudentCard from './components/StudentCard';
-import Counter from './components/Counter';
+import Counter from './components/counter';
 
 function App() {
   return (
