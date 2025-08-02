@@ -1,7 +1,7 @@
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import StudentCard from './Components/StudentCard';
-import Counter from './Components/Counter';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import StudentCard from './components/StudentCard';
+import Counter from './components/Counter';
 
 function App() {
   return (
