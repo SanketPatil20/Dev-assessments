@@ -1,0 +1,94 @@
+<div class="student-list-container">
+  <!-- Header Section -->
+  <div class="header-section">
+    <h2>Student List</h2>
+    <button class="btn btn-primary" (click)="toggleAddForm()">
+      {{ showAddForm ? 'Cancel' : 'Add New Student' }}
+    </button>
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="error" class="error-message">
+    {{ error }}
+  </div>
+
+  <!-- Add Student Form -->
+  <div *ngIf="showAddForm" class="add-form">
+    <h3>Add New Student</h3>
+    <form (ngSubmit)="addStudent()" #studentForm="ngForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input 
+          type="text" 
+          id="name" 
+          name="name" 
+          [(ngModel)]="newStudent.name" 
+          required 
+          class="form-control">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          [(ngModel)]="newStudent.email" 
+          required 
+          class="form-control">
+      </div>
+      
+      <div class="form-group">
+        <label for="course">Course:</label>
+        <input 
+          type="text" 
+          id="course" 
+          name="course" 
+          [(ngModel)]="newStudent.course" 
+          required 
+          class="form-control">
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn btn-success">Add Student</button>
+        <button type="button" class="btn btn-secondary" (click)="toggleAddForm()">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading students...</p>
+  </div>
+
+  <!-- Students List -->
+  <div *ngIf="!loading && students.length > 0" class="students-grid">
+    <div *ngFor="let student of students" class="student-card">
+      <div class="student-header">
+        <h3>{{ student.name }}</h3>
+        <span class="student-id">ID: {{ student._id?.substring(0, 8) }}...</span>
+      </div>
+      
+      <div class="student-details">
+        <p><strong>Email:</strong> {{ student.email }}</p>
+        <p><strong>Course:</strong> {{ student.course }}</p>
+        <p><strong>Added:</strong> {{ formatDate(student.createdAt!) }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Empty State -->
+  <div *ngIf="!loading && students.length === 0" class="empty-state">
+    <div class="empty-icon">📚</div>
+    <h3>No Students Found</h3>
+    <p>No students have been added yet. Click "Add New Student" to get started!</p>
+  </div>
+
+  <!-- Refresh Button -->
+  <div class="refresh-section">
+    <button class="btn btn-outline" (click)="loadStudents()">
+      🔄 Refresh List
+    </button>
+  </div>
+</div>
