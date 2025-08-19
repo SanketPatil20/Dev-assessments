@@ -1,0 +1,17 @@
+<div class="twoway-binding-demo">
+  <h2>Two-Way Data Binding Demo</h2>
+  
+  <div class="input-section">
+    <label for="studentName">Enter Student Name:</label>
+    <input 
+      type="text" 
+      id="studentName"
+      [(ngModel)]="studentName" 
+      placeholder="Type your name here..."
+      class="form-input">
+  </div>
+  
+  <div class="display-section">
+    <p class="greeting">Hello, {{studentName}}!</p>
+  </div>
+</div>
